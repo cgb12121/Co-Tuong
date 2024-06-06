@@ -43,7 +43,7 @@ public class ChineseChess extends JFrame {
 
         // Tải ảnh bàn cờ
         try {
-            boardImage = ImageIO.read(new File("src/resources/board.png")); // Adjust the path to your board image
+            boardImage = ImageIO.read(new File("src/resources/board.png"));
         } catch (IOException e) {
             e.printStackTrace();
         }
