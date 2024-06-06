@@ -170,7 +170,7 @@ public class ChineseChess extends JFrame {
                 // Vẽ vòng tròn xung quanh vị trí kết thúc của nước đi cuối
                 int xEnd = lastMoveEnd.getCol() * cellWidth;
                 int yEnd = lastMoveEnd.getRow() * cellHeight;
-                g2d.setStroke(new BasicStroke(2));
+                g2d.setStroke(new BasicStroke(5));
                 g2d.drawOval(xEnd, yEnd, cellWidth, cellHeight);
             }
 
